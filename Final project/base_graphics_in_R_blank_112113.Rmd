@@ -1,0 +1,62 @@
+Base graphics in R
+=============================================================
+
+Author: Emily Davenport
+
+## Description
+
+In this short 20 minute class we will explore some of the built in graph options in R. These tools are useful for data exploration and visualization. There are likely better options for building good looking figures for publications or presentations, however, using the built in graphic options is a great way to get a first pass look at your data.  
+
+**Learning objectives:**
+
+There are two goals for this short lesson: 
+1. Be able to have a broad sense for the kinds of graphics are can do straight out of the box. 
+2. Feel comfortable in reading the R help material to be able to use these tools effectively.
+
+## Get familiar with the data
+
+Today we are going to work with the iris dataset, which contains anatomic measurements and species classifications.  
+
+```{r}
+
+```
+
+### Scatterplots
+
+```{r}
+
+
+```
+
+## Histograms
+ 
+
+```{r}
+
+```
+
+## Boxplots
+
+```{r}
+
+```
+
+## Saving graph
+
+```{r}
+# 2 ways:
+
+# 1 either export in R studio or save pdf in quartz
+# 2 save in code:
+
+```
+
+## More complicated options (par)
+
+```{r}
+?par
+
+
+
+
+```
